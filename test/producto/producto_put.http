@@ -1,0 +1,10 @@
+PATCH http://localhost:3000/producto/784447240010760193 HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Salchipapas",
+    "descripcion":"Papas con salchicha",
+    "precio":1
+}
+
+

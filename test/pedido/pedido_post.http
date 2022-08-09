@@ -1,0 +1,8 @@
+POST http://localhost:3000/pedido HTTP/1.1
+content-type: application/json
+
+{
+    "data": "[{ 'id_producto': '784467708219949057','cantidad':1 },{ 'id_producto': '784989495112826882','cantidad':1},{ 'id_producto': '785011167762087938','cantidad':1}]"
+}
+
+

@@ -1,0 +1,4 @@
+DELETE http://localhost:3000/producto/784467708219949057 HTTP/1.1
+content-type: application/json
+
+

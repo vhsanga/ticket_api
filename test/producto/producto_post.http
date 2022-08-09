@@ -1,0 +1,10 @@
+POST http://localhost:3000/producto HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Salchipapas",
+    "descripcion":"",
+    "precio":1.5
+}
+
+
