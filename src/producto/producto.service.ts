@@ -33,7 +33,9 @@ export class ProductoService {
   async findAll() {
     let productos;
     try {
-      productos = await this.productoModel.findAll();
+      productos = await this.productoModel.findAll({
+        order: [['precio', 'DESC']],
+      });
     } catch (error) {
       throw new HttpException(
         'Error al consultar ' + error.toString(),
